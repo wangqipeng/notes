@@ -1,6 +1,6 @@
 # Function Approximation in Reinforcement Learning
 
-Let’s dive into **function approximation** in reinforcement learning (RL) and explore what it means, why it’s useful, and how it’s applied with some practical examples. I’ll keep it clear and engaging, and then we’ll get hands-on with code snippets to illustrate the concepts.
+Let’s dive into **function approximation** in reinforcement learning (RL) and explore what it means, why it’s useful, and how it’s applied with some practical examples. 
 
 ## What is Function Approximation in Reinforcement Learning?
 
