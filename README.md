@@ -1,1 +1,1 @@
-# this repository may includes: reinforcement learning, bidding strategy, quantitative trading, block chain related topic
+This repository may includes: reinforcement learning, bidding strategy, quantitative trading, block chain related topic
