@@ -30,21 +30,19 @@ Imagine a simple environment with continuous states, like a 2D position \((x, y)
 ```python
 import numpy as np
 
-# Define a feature function (e.g., state itself plus a bias term)
+
 def phi(state):
     return np.array([1, state[0], state[1]])  # [bias, x, y]
 
-# Initialize weights
+
 w = np.random.randn(3)
 
-# Predict value for a state
 state = np.array([0.5, 1.2])  # Example state (x, y)
 value = np.dot(w, phi(state))
 print(f"Approximated value for state {state}: {value}")
 
-# Update weights using TD learning (simplified)
-target = 10  # Example target value (e.g., reward + discounted next value)
-alpha = 0.1  # Learning rate
+target = 10  
+alpha = 0.1  
 error = target - value
 w += alpha * error * phi(state)
 print(f"Updated weights: {w}")
