@@ -28,4 +28,5 @@ In scenarios where a smaller base model had moderate success, optimizing test-ti
 
 Efficient Resource Utilization: Focusing on test-time compute allows for performance gains without the extensive resources required for training larger models.​
 Strategic Compute Allocation: Adapting computational efforts based on task complexity leads to more effective and efficient model performance.​
+
 In summary, the paper demonstrates that strategically optimizing computational resources during the inference phase can yield significant performance improvements in LLMs, offering a more resource-efficient alternative to scaling model parameters.
