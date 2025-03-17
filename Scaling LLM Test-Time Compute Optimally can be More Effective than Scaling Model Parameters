@@ -2,21 +2,23 @@ The paper titled "Scaling LLM Test-Time Compute Optimally can be More Effective 
 
 # Key Insights:
 
-Test-Time Compute vs. Model Scaling:
+1.Test-Time Compute vs. Model Scaling:
 
 Traditionally, improving LLM performance has involved increasing the number of model parameters, which requires substantial training resources.​
 This study investigates the alternative approach of enhancing performance by optimizing the computational resources allocated during inference, known as test-time compute.​
-Mechanisms for Scaling Test-Time Compute:
+
+2.Mechanisms for Scaling Test-Time Compute:
 
 Search with Verifier Reward Models: This involves generating multiple candidate responses and using a verifier model to evaluate and select the most accurate one.​
 Adaptive Response Distribution: The model adjusts its response generation process based on the specific prompt, allowing for more tailored and accurate outputs.​
-Adaptive Allocation of Compute Resources:
+
+3.Adaptive Allocation of Compute Resources:
 
 The study emphasizes that the effectiveness of test-time compute scaling varies with the complexity of the prompt.​
 
 Implementing a compute-optimal strategy—allocating computational resources adaptively based on prompt difficulty—can significantly enhance efficiency.​
 
-# Performance Improvements:
+4. Performance Improvements:
 
 Using the compute-optimal strategy, the study achieved over a fourfold increase in efficiency compared to traditional best-of-N methods.​
 
