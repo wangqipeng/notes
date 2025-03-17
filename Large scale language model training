@@ -1,1 +1,16 @@
+# Large Scale Training Memory Usage
+
+The batch size (bs) is one of the important hyper-parameters for model training and affects both model convergence and throughput. A sweet spot for recent LLM training is typically on the order of **4–60 million tokens per batch**.
+
+## Small Batch Size
+
+### Pros
+- **Faster initial progress:**  
+  A small batch size can be useful early in training to quickly move along the training landscape and reach an optimal learning point.
+
+### Cons
+1. **Noisy gradients later in training:**  
+   As training progresses, small batch sizes tend to keep gradients noisy, which may prevent the model from converging to the most optimal final performance.
+2. **Increased computational cost:**  
+   A small batch size requires more optimizer steps to process the same number of samples, and these extra steps are costly in terms of compute time.
 
